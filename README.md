@@ -1,5 +1,7 @@
 # OpenRouter Desktop Dashboard
-
+<p align="center">
+  <img src="screenshot.png" alt="OpenRouter Dashboard Preview" width="320" />
+</p>
 A sleek, borderless floating widget built in Python that tracks your live OpenRouter API spend, credit balance, and model usage directly on your desktop. 
 
 ## Features
