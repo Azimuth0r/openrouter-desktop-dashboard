@@ -22,7 +22,7 @@ jobs:
         pip install pyinstaller requests matplotlib
         
     - name: Build with PyInstaller
-      run: pyinstaller --noconsole --onefile or_dashboard.py
+      run: pyinstaller --noconsole --onefile --icon=app_icon.ico or_dashboard.py
       
     - name: Upload EXE
       uses: actions/upload-artifact@v4
